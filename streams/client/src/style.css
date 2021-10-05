@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#4c9797;
+    height:auto;
+    background-size: cover;
+    backdrop-filter: blur(5px); 
+    
+}
+#create{
+    background:rgba(255,255,255,0.3);
+    box-shadow:0 0 5px rgba(0,0,0);
+}
+#create:active{
+    transform:scale(0.97);
+    transition: all;
+}
+
+.designList{
+    height: 150px;
+	box-shadow: 0 0 5px 0 rgba(255, 255, 255, .7);	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .0.15);
+	backdrop-filter: blur(5px);
+    margin-top:70px;
+    margin-left: 40px;
+}
+
+#icon{
+    position:absolute;
+    margin-left: 20px;
+    margin-top:10px;
+    font-size:25px;
+    text-shadow: 0 0 10px rgba(255,255, 255,0.6);
+}
+
+#author{
+    margin-top:10px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    font-size: 22px;
+
+}
+#title{
+    color:black;
+    text-transform:capitalize;
+    font-size:24px;
+    text-shadow: 0 0 10px rgba(255,255, 255,1);
+    margin-left:70px;
+    
+}
+#title:hover{
+    color:rgb(219, 232, 235);
+    transition: all 0.23s ease;
+}
+#des{
+    color:black;
+    text-transform:capitalize;
+    margin-left:70px;
+    margin-top: 13px;
+    
+}
+#up{
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+#edit{
+  font-size:12px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#delete{
+    font-size:12px;
+    margin-left: 5px;
+}
+.edit{
+     position: relative;
+     left:7px;
+     color:black;
+}
+.trash{
+     position: relative;
+     left:6px;
+     color:black;
+}
+.edit:hover{color:rgb(34, 148, 148)}
+.trash:hover{color:red}
+
+#showi{
+    position: relative;
+    left:15%;
+    margin-top:15%;
+    font-size:30px;
+    text-shadow: 0 0 8px rgba(255,255, 255,1);
+
+}
